@@ -8,6 +8,7 @@ import com.atiurin.sampleapp.helper.isTextOnScreen
 import com.atiurin.sampleapp.helper.isViewDisplayed
 import com.atiurin.sampleapp.helper.typeText
 import com.atiurin.sampleapp.pages.UIElementPage
+import com.atiurin.sampleapp.tests.BaseTest
 import com.atiurin.ultron.extensions.tap
 import org.junit.Rule
 import org.junit.Test
@@ -15,7 +16,7 @@ import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
 @LargeTest
-class ChattingTests {
+class ChattingTests: BaseTest() {
 
     @get:Rule
     val activityTestRule = ActivityScenarioRule(MainActivity::class.java)
