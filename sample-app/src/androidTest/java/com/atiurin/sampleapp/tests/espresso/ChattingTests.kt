@@ -47,16 +47,18 @@ class ChattingTests : BaseTest() {
         }
     }
 
-//    @Test
-//    fun customClicksTest() {
-//        with(CustomClicksSteps){
-//            tapBurgerMenu()
-//        }
+    @Test
+    fun customClicksTest() {
+        with(CustomClicksSteps) {
+            tapBurgerMenu()
+            tapCustomClicksNav()
+            isCustomClickPageDisplayed()
+            checkboxes()
+            Thread.sleep(3000)
+        }
 
 
-
-
-//    }
+    }
 
 
 }

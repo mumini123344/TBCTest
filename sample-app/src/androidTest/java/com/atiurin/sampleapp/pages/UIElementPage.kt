@@ -9,8 +9,6 @@ import org.hamcrest.Matchers
 
 object UIElementPage {
 
-    val radioBtnInvisible: Matcher<View> by lazy { withId(R.id.invisible) }
-    val radioBtnVisible: Matcher<View> by lazy { withText("VISIBLE") }
 
     val nameRoss: Matcher<View> by lazy {
         Matchers.allOf(
@@ -28,7 +26,6 @@ object UIElementPage {
     val sendButton: Matcher<View> by lazy { Matchers.allOf(withId(R.id.send_button)) }
 
 
-    val name: Matcher<View> by lazy { Matchers.allOf(withId(R.id.toolbar_title)) }
     val sentText: Matcher<View> by lazy { Matchers.allOf(withId(R.id.message_text)) }
     val recyclerFriends: Matcher<View> by lazy { Matchers.allOf(withId(R.id.recycler_friends)) }
 
