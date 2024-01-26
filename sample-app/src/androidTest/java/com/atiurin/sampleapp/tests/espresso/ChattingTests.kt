@@ -29,7 +29,6 @@ class ChattingTests : BaseTest() {
         with(UIElementSteps) {
             isDashboardLoaded()
         }
-
     }
 
     @Test
