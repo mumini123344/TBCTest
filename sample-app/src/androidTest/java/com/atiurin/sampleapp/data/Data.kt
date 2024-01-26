@@ -4,5 +4,4 @@ object Data {
     val screenText = "Friends"
     val greetingChatText = "Yo Man"
     val friendName = "Ross Geller"
-
 }
