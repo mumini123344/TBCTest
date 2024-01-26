@@ -31,30 +31,6 @@ object CustomClicksSteps {
         }
     }
 
-    fun tapBottomLeft() {
-        with(CustomClicksPage) {
-            bottomLeft.tap()
-        }
-    }
-
-    fun tapTopLeft() {
-        with(CustomClicksPage) {
-            topLeft.tap()
-        }
-    }
-
-    fun tapTopRight() {
-        with(CustomClicksPage) {
-            topRight.tap()
-        }
-    }
-
-    fun tapBottomRight() {
-        with(CustomClicksPage) {
-            bottomRight.tap()
-        }
-    }
-
     fun checkboxes() {
         with(CustomClicksPage) {
             val checkboxCorners = arrayOf(

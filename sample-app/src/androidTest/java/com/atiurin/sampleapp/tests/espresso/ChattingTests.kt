@@ -42,7 +42,6 @@ class ChattingTests : BaseTest() {
             isChatCorrect()
             sendText()
             isSentTextCorrect()
-            Thread.sleep(5000)
 
         }
     }
@@ -54,7 +53,7 @@ class ChattingTests : BaseTest() {
             tapCustomClicksNav()
             isCustomClickPageDisplayed()
             checkboxes()
-            Thread.sleep(3000)
+
         }
 
 
